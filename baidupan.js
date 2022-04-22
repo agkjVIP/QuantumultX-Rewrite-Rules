@@ -3,7 +3,7 @@
 解锁线路 清晰度
 
 [rewrite_local]
-https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body bdwp.js
+https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/baidupan.js
 
 [mitm]
 pan.baidu.com
