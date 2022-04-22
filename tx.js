@@ -3,7 +3,7 @@
 网页地址：http://txv04.com/
 [rewrite_local]
 # 糖心网页版解锁会员
-^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/tangxin.js
+^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/tx.js
 [mitm] 
 hostname = txv04.com
 */
