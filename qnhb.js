@@ -14,7 +14,7 @@ QQ群：773554575
 
 [rewrite_local]
 
-^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo url script-response-body qnhb.js
+^https:\/\/api\.qingning6\.com\/api\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/qnhb.js
 
 [mitm] 
 
