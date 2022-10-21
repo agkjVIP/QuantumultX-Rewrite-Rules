@@ -30,19 +30,18 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const agkj = '/status';
 
 
-if (url.indexOf(agkj) != -1) {
-    obj.result.name = "阿甘科技破解";
-    obj.result.proEndDate = "2999-01-01T00:00:00.000+0000";
-    obj.result.User = true;
-    obj.result.pro = true;
-    obj.result.Name = "阿甘科技破解";
-    obj.result.needSubscribe = false;
-
-	body = JSON.stringify(obj);
-}
 
 
+    parse.name = "阿甘科技破解";
+    parse.proEndDate = "2999-01-01T00:00:00.000+0000";
+    parse.User = true;
+    parse.pro = true;
+    parse.Name = "阿甘科技破解";
+    parse.needSubscribe = false;
+
+
+
+body = JSON.stringify(obj);
 $done({body});
