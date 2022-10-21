@@ -19,7 +19,7 @@ QQ群：773554575
 
 [mitm] 
 
-hostname = api.dida365.com  
+hostname = dida365.com  
 
 
 
