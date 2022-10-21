@@ -28,7 +28,7 @@ hostname = dida365.com
 
 var body = $response.body;
 var url = $request.url;
-var obj = JSON.parse(body);
+var parse = JSON.parse(body);
 
 
 
@@ -43,5 +43,5 @@ var obj = JSON.parse(body);
 
 
 
-body = JSON.stringify(obj);
+body = JSON.stringify(parse);
 $done({body});
