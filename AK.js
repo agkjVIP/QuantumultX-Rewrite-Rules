@@ -8,7 +8,7 @@
 	******************************
 [rewrite_local]
 
-^https:\/\/tingyun\.info\/api\/(user\/(personal|getdevice)|Browse\/add) url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/AK.js
+^http:\/\/tingyun\.info\/api\/(user\/(personal|getdevice)|Browse\/add) url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/AK.js
 
 [mitm] 
 
