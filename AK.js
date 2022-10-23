@@ -8,9 +8,9 @@
 	******************************
 
 [rewrite_local]
-http:\/\/tingyun\.info\/api\/user\/personal url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/AK.js
 
-http:\/\/tingyun\.info\/api\/user\/getdevice url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/AK.js
+http:\/\/tingyun\.info\/api\/(user\/(personal|getdevice)|Browse\/add) url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/AK.js
+
 
 [mitm] 
 hostname = tingyun.info
