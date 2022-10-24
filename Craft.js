@@ -8,7 +8,8 @@
 QQ群：773554575
 *******************************
 [rewrite_local]
-^https:\/\/api\.craft\.do\/auth\/v2\/profile url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Craft.js
+^https:\/\/api\.craft\.do\/auth\/v2\/profile url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-rules/main/Craft.js
+
 [mitm] 
 hostname = api.craft.do
 *******************************/
