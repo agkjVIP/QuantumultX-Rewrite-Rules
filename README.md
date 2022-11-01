@@ -6,7 +6,3 @@
 
 ### [@阿甘科技的博客](https://agkjvip.github.io)
 
-
-### 访问量
-
-![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=369520)
