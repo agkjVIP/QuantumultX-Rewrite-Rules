@@ -5,3 +5,8 @@
 ### [@阿甘科技的油管](https://www.youtube.com/channel/UCj4DaQ3kboTY6tun1eCaT9g/featured)
 
 ### [@阿甘科技的博客](https://agkjvip.github.io)
+
+
+### 访问量
+
+![](http://profile-counter.glitch.me/evilbutcher/count.svg)
