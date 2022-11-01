@@ -9,4 +9,4 @@
 
 ### 访问量
 
-![](http://profile-counter.glitch.me/evilbutcher/count.svg)
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=369520)
