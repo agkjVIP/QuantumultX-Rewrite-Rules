@@ -1,6 +1,6 @@
 # QuantumultX-Rewrite-Rules
 
-## 关于rewrite及教程
+## 关于rewrite及其基础小白教程
 
 ### 1. 了解重写 / MITM解密
 
