@@ -1,6 +1,6 @@
 /******************************
 脚本功能：Milk全解锁
-下载地址：https://milk.kzk61yo.cn/?qcode=mm793609
+下载地址：https://milk.kzk61yo.cn/?qcode=mm795098
 软件版本：*
 脚本作者：阿甘科技
 更新时间：2022-12-5
@@ -17,14 +17,14 @@ hostname = *fuaybr*
 
 *******************************/
 
-$notify("阿甘科技提醒您milk脚本已注入成功");
+$notify("阿甘科技提醒您milk脚本已注入成功，严禁转载，支持原创，群友专享");
 var __encode = 'jsjiami.com',
     _a = {},
     _0xb483 = ["_decode", "http://www.sojson.com/javascriptobfuscator.html"];
 (function(_0xd642x1) {
     _0xd642x1[_0xb483[0]] = _0xb483[1]
 })(_a);
-var __Oxf10b9 = ["body", "parse", "获取用户数据成功", "", "1", "3dab9d6b0eecfd74299b5f843dcee351", "1670081075", "3", "https://s1.ax1x.com/2022/11/02/xH6oef.png", "阿甘科技QQ群：773554575", "0", "119902", "ZCbiYyAuc9n-KdcF7i801994012", "https://ppt.fuaybr.cn?qr_code=mm792871", "阿甘科技带你飞", "阿甘科技QQ群：773554575", "111", "mm792871", "https://ppt.fuaybr.cn", "88888888", "阿甘科技QQ群：773554575", "stringify", "undefined", "log", "删除", "版本号，js会定", "期弹窗，", "还请支持我们的工作", "jsjia", "mi.com"];
+var __Oxf10b9 = ["body", "parse", "获取用户数据成功", "", "1", "3dab9d6b0eecfd74299b5f843dcee351", "1670081075", "3", "https://s1.ax1x.com/2022/12/04/zsN2NQ.jpg", "阿甘科技QQ群：773554575", "0", "119902", "ZCbiYyAuc9n-KdcF7i801994012", "https://milk.kzk61yo.cn/?qcode=mm795098", "阿甘科技带你飞", "阿甘科技QQ群：773554575", "111", "mm795098", "https://ppt.fuaybr.cn", "88888888", "阿甘科技QQ群：773554575", "stringify", "undefined", "log", "删除", "版本号，js会定", "期弹窗，", "还请支持我们的工作", "jsjia", "mi.com"];
 var body = $response[__Oxf10b9[0x0]];
 let obj = JSON[__Oxf10b9[0x1]]($response[__Oxf10b9[0x0]]);
 obj = {
