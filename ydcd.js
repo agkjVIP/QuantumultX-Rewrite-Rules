@@ -10,14 +10,16 @@ QQ群：773554575
 
 *******************************
 [rewrite_local]
-^http[s]?:\/\/dict.youdao.com\/vip\/user\/status*.+$ url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-Rewrite-Rules/main/ydcd.js
+
+^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/agkjVIP/QuantumultX-Rewrite-Rules/main/ydcd.js
+
 [mitm] 
-hostname = *.youdao.*
+
+hostname = dict.youdao.com
 *******************************/
 
-var obj = JSON.parse($response.body);
-    obj.data..+ =  
- {
+var objc = JSON.parse($response.body);
+objc = {
     "planIds": ["22"],
     "auto": true,
     "svipExpire": 0,
@@ -25,7 +27,7 @@ var obj = JSON.parse($response.body);
         "ONE_MONTH",
         "AUTO_SUBSCRIPTION"
     ],
-    "expire": 9999999999999,
+    "expire": 4093844524891,
     "purchasedPlanIds": ["22"],
     "firstAuto": false,
     "tag": "TAG_RENEW_EXPECTED",
@@ -33,8 +35,8 @@ var obj = JSON.parse($response.body);
     "svip": false,
     "open": true,
     "copyWritings": [
-        "阿甘科技",
-        "qq群773554575"
+        "阿甘科技解锁",
+        "QQ群：773554575"
     ]
 };
-    $done({body: JSON.stringify(obj)});
+$done({ "body": JSON.stringify(objc) });
