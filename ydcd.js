@@ -27,7 +27,7 @@ objc = {
         "ONE_MONTH",
         "AUTO_SUBSCRIPTION"
     ],
-    "expire": 4093844524891,
+    "expire": 9999999999999,
     "purchasedPlanIds": ["22"],
     "firstAuto": false,
     "tag": "TAG_RENEW_EXPECTED",
