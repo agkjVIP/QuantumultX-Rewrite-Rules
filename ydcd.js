@@ -16,7 +16,7 @@ hostname = *.youdao.*
 *******************************/
 
 var obj = JSON.parse($response.body);
-    obj.data..+ =  [
+    obj.data..+ =  
  {
     "planIds": ["22"],
     "auto": true,
@@ -25,7 +25,7 @@ var obj = JSON.parse($response.body);
         "ONE_MONTH",
         "AUTO_SUBSCRIPTION"
     ],
-    "expire": 4093844524891,
+    "expire": 9999999999999,
     "purchasedPlanIds": ["22"],
     "firstAuto": false,
     "tag": "TAG_RENEW_EXPECTED",
@@ -35,8 +35,6 @@ var obj = JSON.parse($response.body);
     "copyWritings": [
         "阿甘科技",
         "qq群773554575"
-    ]
-}
     ]
 };
     $done({body: JSON.stringify(obj)});
